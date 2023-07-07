@@ -1,4 +1,4 @@
-% the proposed image inpainting method: CSRNS, which is submitted to SMCA
+% the proposed image inpainting method: CSRNS, which is submitted to TCSVT
 % a demo on image inpainting under noise level 30 with 50% missing pixel 
 
 clc;

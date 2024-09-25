@@ -1,2 +1,2 @@
 # demo_CSRNS
-The demo of our image inpainting method CSRNS
+The demo of our method for simultaneous image denoising and completion.

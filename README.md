@@ -4,3 +4,7 @@ Abstract. Low rank matrix approximation (LRMA) has been widely studied due to it
 
 
 ![ff1](https://github.com/user-attachments/assets/429a2a8e-650c-4808-9f1c-5f743988fde6)
+Visual comparison of Butterfly mixed corrupted by additive white Gaussian noise and irregular scratches. (a) Ground Truth (PSNR/SSIM). (b) Input corrupted image (9.83/0.209). (c) WSNM (18.75/0.440). (d) LGSR (19.32/0.468). (e) SHI (24.52/0.835). (d) Proposed (24.96/0.848). Through comparison, our method achieves the performance closest to GT. The proposed method not only produces the most natural-looking effect but also effectively denoises the image and restores missing information simultaneously. Zoom-in is recommended to see the detailed comparisons.
+
+![f0](https://github.com/user-attachments/assets/6e8bc86b-2c4e-4683-a7cd-de8058e855b1)
+The flowchart illustrates our proposed method for simultaneous image denoising and completion. The degraded image is reconstructed using the proposed model by jointly incorporating the ASR and NLSM into existing WSNM to form the objective function Eq. (11), which is iteratively solved through the ADMM framework. Specifically, the objective function is divided into Z, W, and S sub-problems and solved separately, then the reconstruction result X is obtained by combining these three modules.

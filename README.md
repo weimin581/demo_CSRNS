@@ -8,6 +8,10 @@ Visual comparison of Butterfly mixed corrupted by additive white Gaussian noise 
 
 ![f0](https://github.com/user-attachments/assets/6e8bc86b-2c4e-4683-a7cd-de8058e855b1)
 The flowchart illustrates our proposed method for simultaneous image denoising and completion. The degraded image is reconstructed using the proposed model by jointly incorporating the ASR and NLSM into existing WSNM to form the objective function Eq. (11), which is iteratively solved through the ADMM framework. Specifically, the objective function is divided into Z, W, and S sub-problems and solved separately, then the reconstruction result X is obtained by combining these three modules.
+![bscd68](https://github.com/user-attachments/assets/8e554741-1ecb-4ac3-9c87-6017023e9d73)
+
+
+![f9](https://github.com/user-attachments/assets/5b5589ee-9a86-484e-815b-1f12ae4e7391)
 
 @article{yuan2024csrns, title={Simultaneous Image Denoising and Completion  through Convolutional Sparse Representation and Nonlocal Self-similarity}, author={Weimin Yuana, Yuanyuan Wang, Ruirui Fan, Yuxuan Zhang,
 Guangmei Wei, Cai Meng, Xiangzhi Bai}, journal={Computer Vision and Image Understanding}, year={2024}, publisher={Elsevier} }
